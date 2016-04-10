@@ -174,3 +174,29 @@ button  a:before{
 
 .answers_questions:before { background-position: -65px -291px; width: 28px; height: 25px; }
 .answers_questions:hover:before { background-position: -65px -291px; width: 28px; height: 25px; }
+
+.footer a{
+	font: 15px Arial;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.footer :hover{
+	background-color: #e84824;
+  	left: 0;
+  	bottom: 0;
+ 	width: 100%;
+ 	height: 60px;
+ 	margin: 0 auto;
+ 	text-align: center;	
+}
+.answers_questions {
+	
+	padding-top: 10px;
+	padding-bottom: 32px;
+	padding-left: 487px;
+	padding-right: 487px;
+
+}
+
