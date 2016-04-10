@@ -14,33 +14,43 @@ html {
 	width: 1200px;
 	height: 60px;
 	background-color: #ffffff;
+	
 }
 
 .name_main {
 	color: #0e334f;
 	font: 18px Arial;
 	font-weight: bold;
-	padding: 0px 5px 5px 5px;
 	text-decoration: none;
+
 }
 
 .main {
 	color: #808c95;
 	font: 18px Arial;
-	padding: 0px 5px 5px 5px;
+	padding: 5px;
+	margin: 0;
 }
 
-.left_col a:hover {
+.logo_main a:hover {
 	color: #e84824;
 }
-
 
 .right_col a:hover {
 	color: #e84824;
 }
+ 
+.logo_name a:hover{
+	color: #0e334f;
+}
 
 .left_col {
 	float: left;
+}
+
+.left_col div{
+	display: inline-block;
+	padding: 10px 10px;
 }
 
 .logo{
@@ -50,7 +60,8 @@ html {
 .right_col {
 	float: right;
 	box-sizing: border-box;
-	display: block;
+	display: inline-block;
+ 
 }
 
 .link :before{ 
@@ -70,6 +81,17 @@ html {
 .icon_3:hover:before { background-position: -23px -379px; width: 23px; height: 17px; }
 
 
+
+
+.link2{
+	background: url('../images/seven.png') no-repeat   top right 10px,
+	url('../images/red_l.png') no-repeat right top 0px;
+}
+.link3{
+	background: url('../images/thirty.png') no-repeat   top right 10px,
+	url('../images/red_l.png') no-repeat right top 0px;
+}
+
 .link a{
 	text-transform: uppercase;
 	color: #909aa4;
@@ -78,56 +100,69 @@ html {
 	text-decoration: none;
 }
 
-
 .name a{
 	color: #0e334f;
-
 }
 
-
-button a:hover{
-	background-color: red;
-
+.right_col div{
+	display: inline-block;
+	padding: 10px 10px; 
 }
 
-button{
+.login {
 	background-color: #f4f4f4;
-	width: 150px;
-	height: 62px;
+	margin: 0;
+	padding: 0;
 	
 }
 
-button  a:before{ 
+.login a{
+	color: #061f33;
+	text-decoration: none;
+}
+
+.login :hover {
+	background-color: #e84824;
+	padding: 17px 0px 13px 0px;
+}
+
+.login a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+.login :before{
 	display: inline-block;
 	 background: url('../images/sp.png') no-repeat;
 	 overflow: hidden;
 	 text-indent: -9999px; 
 	 content: ''; 
-	 text-align: right; 
+	 text-align: left; 
 }
+
 .icon_4:before { background-position: -46px -362px; width: 19px; height: 22px; }
 .icon_4:hover:before { background-position: -65px -383px; width: 19px; height: 22px; }
 
 .box{
 	width: 1000px; /* Ширина */
     margin: 20px; /* Отступы */
-    padding-top:220px;
+    padding-top: 220px;
     padding-bottom: 220px;
     padding-left: 200px; /* Поля сверху и снизу */
     text-align: center; /* Выравнивание по центру */
     display: inline-block;
     box-sizing: border-box;
-
 }
 
 .top_box div{
 	display: inline-block;
-	padding: 40px;
+	padding: 40px 35px 30px 35px; 
 }
 
 .bottom_box div{
 	display: inline-block;
-	padding: 40px;
+	padding: 40px 35px 30px 35px; 
 }
 
 .box :before{ 
@@ -153,15 +188,63 @@ button  a:before{
 .icon_main_2:hover:before { background-position: -0px -235px; width: 85px; height: 56px; }
 .icon_main_4:hover:before { background-position: -0px -291px; width: 65px; height: 71px; }
 
+.top_box1{
+	background: url('../images/number_red1.png') no-repeat   top right 10px,
+	url('../images/red_b.png') no-repeat right top 0px;
+}
+.top_box2{
+	background: url('../images/number_red2.png') no-repeat   top right 10px,
+	url('../images/red_b.png') no-repeat right top 0px;
+}
+
+.top_box3{
+	background: url('../images/number_blue.png') no-repeat   top right 10px,
+	url('../images/blue.png') no-repeat right top 0px;
+}
+
+.bottom_box4{
+	background: url('../images/number_green.png') no-repeat  right top 5px,
+	url('../images/green.png') no-repeat right top 0px;
+}
+
+
+
+
+.box p {
+	font: 22px Arial;
+	text-transform: uppercase;
+	color: #ffffff;
+} 
+
+.box a{
+	text-decoration: none;
+}
+
+
+.box p:hover{
+	font: 22px Arial;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.top_box div:hover{
+	background-color: #274861;
+}
+
+.bottom_box div:hover{
+	background-color: #274861;
+}
 
 .footer{
 	background-color: #061f33;
-  	left: 0;
+  	left: 75px;
   	bottom: 0;
- 	width: 100%;
- 	height: 60px;
+ 	width: 1200px;
+ 	height: 40px;
  	margin: 0 auto;
- 	text-align: center;	
+ 	text-align: center;
+ 	position: fixed;
+
 }
 
 .footer :before{
@@ -187,7 +270,7 @@ button  a:before{
   	left: 0;
   	bottom: 0;
  	width: 100%;
- 	height: 60px;
+ 	height: 40px;
  	margin: 0 auto;
  	text-align: center;	
 }
