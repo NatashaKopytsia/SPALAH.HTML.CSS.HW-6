@@ -7,14 +7,14 @@ html {
     width: 1200px;
 	height: 1000px;
     margin: 0 auto;
+    padding: 0;
     background: #0e334f;
 }
 
 .header {
 	width: 1200px;
 	height: 60px;
-	background-color: #ffffff;
-	
+	background-color: #ffffff;	
 }
 
 .name_main {
@@ -46,6 +46,7 @@ html {
 
 .left_col {
 	float: left;
+	margin-top: 0;
 }
 
 .left_col div{
@@ -54,14 +55,13 @@ html {
 }
 
 .logo{
-	margin: 10px;
+	padding: 10px;
 }
 
 .right_col {
 	float: right;
 	box-sizing: border-box;
 	display: inline-block;
- 
 }
 
 .link :before{ 
@@ -81,15 +81,8 @@ html {
 .icon_3:hover:before { background-position: -23px -379px; width: 23px; height: 17px; }
 
 
-
-
-.link2{
-	background: url('../images/seven.png') no-repeat   top right 10px,
-	url('../images/red_l.png') no-repeat right top 0px;
-}
-.link3{
-	background: url('../images/thirty.png') no-repeat   top right 10px,
-	url('../images/red_l.png') no-repeat right top 0px;
+.link img{
+	vertical-align: top;
 }
 
 .link a{
@@ -106,14 +99,12 @@ html {
 
 .right_col div{
 	display: inline-block;
-	padding: 10px 10px; 
 }
 
 .login {
 	background-color: #f4f4f4;
-	margin: 0;
-	padding: 0;
-	
+	height: 49px;
+	padding-top: 10px;
 }
 
 .login a{
@@ -123,14 +114,13 @@ html {
 
 .login :hover {
 	background-color: #e84824;
-	padding: 17px 0px 13px 0px;
+	padding: 20px 0px 25px 0px;
 }
 
 .login a:hover {
 	color: #ffffff;
 	text-decoration: none;
 }
-
 
 .login :before{
 	display: inline-block;
@@ -145,12 +135,12 @@ html {
 .icon_4:hover:before { background-position: -65px -383px; width: 19px; height: 22px; }
 
 .box{
-	width: 1000px; /* Ширина */
-    margin: 20px; /* Отступы */
+	width: 1000px; 
+    margin: 20px; 
     padding-top: 220px;
     padding-bottom: 220px;
-    padding-left: 200px; /* Поля сверху и снизу */
-    text-align: center; /* Выравнивание по центру */
+    padding-left: 200px; 
+    text-align: center; 
     display: inline-block;
     box-sizing: border-box;
 }
@@ -189,26 +179,23 @@ html {
 .icon_main_4:hover:before { background-position: -0px -291px; width: 65px; height: 71px; }
 
 .top_box1{
-	background: url('../images/number_red1.png') no-repeat   top right 10px,
+	background: url('../images/number_red1.png') no-repeat top 8px right 8px,
 	url('../images/red_b.png') no-repeat right top 0px;
 }
 .top_box2{
-	background: url('../images/number_red2.png') no-repeat   top right 10px,
+	background: url('../images/number_red2.png') no-repeat top 8px right 8px,
 	url('../images/red_b.png') no-repeat right top 0px;
 }
 
 .top_box3{
-	background: url('../images/number_blue.png') no-repeat   top right 10px,
+	background: url('../images/number_blue.png') no-repeat top 8px right 10px,
 	url('../images/blue.png') no-repeat right top 0px;
 }
 
 .bottom_box4{
-	background: url('../images/number_green.png') no-repeat  right top 5px,
-	url('../images/green.png') no-repeat right top 0px;
+	background: url('../images/number_green.png') no-repeat right 15px top 7px,
+	url('../images/green.png') no-repeat top right 0px;
 }
-
-
-
 
 .box p {
 	font: 22px Arial;
@@ -219,7 +206,6 @@ html {
 .box a{
 	text-decoration: none;
 }
-
 
 .box p:hover{
 	font: 22px Arial;
@@ -274,12 +260,11 @@ html {
  	margin: 0 auto;
  	text-align: center;	
 }
+
 .answers_questions {
-	
 	padding-top: 10px;
 	padding-bottom: 32px;
 	padding-left: 487px;
 	padding-right: 487px;
-
 }
 
