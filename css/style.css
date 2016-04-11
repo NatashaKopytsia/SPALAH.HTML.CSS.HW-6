@@ -22,7 +22,6 @@ html {
 	font: 18px Arial;
 	font-weight: bold;
 	text-decoration: none;
-
 }
 
 .main {
@@ -40,7 +39,7 @@ html {
 	color: #e84824;
 }
  
-.logo_name a:hover{
+.logo_name a:hover {
 	color: #0e334f;
 }
 
@@ -49,12 +48,12 @@ html {
 	margin-top: 0;
 }
 
-.left_col div{
+.left_col div {
 	display: inline-block;
 	padding: 10px 10px;
 }
 
-.logo{
+.logo {
 	padding: 10px;
 }
 
@@ -63,6 +62,15 @@ html {
 	box-sizing: border-box;
 	display: inline-block;
 }
+
+.link{
+	width: 500px; 
+    margin: 5px; 
+    padding-top: 5px;
+    text-align: center; 
+    display: inline-block;   
+}
+
 
 .link :before{ 
 	display: inline-block;
@@ -80,12 +88,11 @@ html {
 .icon_2:hover:before { background-position: -65px -338px; width: 24px; height: 22px; }
 .icon_3:hover:before { background-position: -23px -379px; width: 23px; height: 17px; }
 
-
-.link img{
+.link2 img {
 	vertical-align: top;
 }
 
-.link a{
+.link a {
 	text-transform: uppercase;
 	color: #909aa4;
 	font: 12px Arial;
@@ -97,7 +104,7 @@ html {
 	color: #0e334f;
 }
 
-.right_col div{
+.right_col div {
 	display: inline-block;
 }
 
@@ -108,7 +115,7 @@ html {
 }
 
 .login a{
-	color: #061f33;
+	colo r: #061f33;
 	text-decoration: none;
 }
 
@@ -122,7 +129,7 @@ html {
 	text-decoration: none;
 }
 
-.login :before{
+.login :before {
 	display: inline-block;
 	 background: url('../images/sp.png') no-repeat;
 	 overflow: hidden;
@@ -134,7 +141,7 @@ html {
 .icon_4:before { background-position: -46px -362px; width: 19px; height: 22px; }
 .icon_4:hover:before { background-position: -65px -383px; width: 19px; height: 22px; }
 
-.box{
+.box {
 	width: 1000px; 
     margin: 20px; 
     padding-top: 220px;
@@ -145,12 +152,12 @@ html {
     box-sizing: border-box;
 }
 
-.top_box div{
+.top_box div {
 	display: inline-block;
 	padding: 40px 35px 30px 35px; 
 }
 
-.bottom_box div{
+.bottom_box div {
 	display: inline-block;
 	padding: 40px 35px 30px 35px; 
 }
@@ -178,21 +185,21 @@ html {
 .icon_main_2:hover:before { background-position: -0px -235px; width: 85px; height: 56px; }
 .icon_main_4:hover:before { background-position: -0px -291px; width: 65px; height: 71px; }
 
-.top_box1{
+.top_box1 {
 	background: url('../images/number_red1.png') no-repeat top 8px right 8px,
 	url('../images/red_b.png') no-repeat right top 0px;
 }
-.top_box2{
+.top_box2 {
 	background: url('../images/number_red2.png') no-repeat top 8px right 8px,
 	url('../images/red_b.png') no-repeat right top 0px;
 }
 
-.top_box3{
+.top_box3 {
 	background: url('../images/number_blue.png') no-repeat top 8px right 10px,
 	url('../images/blue.png') no-repeat right top 0px;
 }
 
-.bottom_box4{
+.bottom_box4 {
 	background: url('../images/number_green.png') no-repeat right 15px top 7px,
 	url('../images/green.png') no-repeat top right 0px;
 }
@@ -203,25 +210,25 @@ html {
 	color: #ffffff;
 } 
 
-.box a{
+.box a {
 	text-decoration: none;
 }
 
-.box p:hover{
+.box p:hover {
 	font: 22px Arial;
 	font-weight: bold;
 	color: #ffffff;
 }
 
-.top_box div:hover{
+.top_box div:hover {
 	background-color: #274861;
 }
 
-.bottom_box div:hover{
+.bottom_box div:hover {
 	background-color: #274861;
 }
 
-.footer{
+.footer {
 	background-color: #061f33;
   	left: 75px;
   	bottom: 0;
@@ -230,28 +237,28 @@ html {
  	margin: 0 auto;
  	text-align: center;
  	position: fixed;
-
 }
 
-.footer :before{
+.footer :before {
 	display: inline-block;
 	background: url('../images/sp.png') no-repeat;
 	overflow: hidden;
 	text-indent: -9999px;    
 	content: '';
-	text-align: right; }
+	text-align: right;
+}
 
 .answers_questions:before { background-position: -65px -291px; width: 28px; height: 25px; }
 .answers_questions:hover:before { background-position: -65px -291px; width: 28px; height: 25px; }
 
-.footer a{
+.footer a {
 	font: 15px Arial;
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #ffffff;
 }
 
-.footer :hover{
+.footer :hover {
 	background-color: #e84824;
   	left: 0;
   	bottom: 0;
